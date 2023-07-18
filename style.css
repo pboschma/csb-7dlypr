@@ -46,6 +46,48 @@ p {
   color: #1d1d1d;
 }
 
+.app .content .menu {
+  border-radius: 10px;
+  min-height: 120px;
+  padding: 5px 20px;
+  margin-bottom: 35px;
+}
+
+.app .content .menu .name {
+  font-size: 21px;
+  font-weight: 700;
+  color: #1d1d1d;
+  display: inline-block;
+}
+
+.app .content .menu .icon {
+  font-size: 20px;
+  margin-right: 10px;
+  display: inline-block;
+  padding: 6px;
+  border-radius: 10px;
+  background: #96bf0e;
+}
+
+.app .content .menu .meal {
+  margin-top: 13px;
+  padding-left: 5px;
+  font-size: 17px;
+  color: #1d1d1d;
+}
+
+.app .content .menu .icon.morning {
+  background: #fdcb6e;
+}
+
+.app .content .menu .icon.afternoon {
+  background: #00b894;
+}
+
+.app .content .menu .icon.night {
+  background: #6c5ce7;
+}
+
 .bar {
   background: #96bf0e;
   position: fixed;
