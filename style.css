@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+
+body {
+  background: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  position: relative;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.app .hero {
+  background: #eeeeee;
+  border-radius: 10px;
+  min-height: 120px;
+  padding: 25px;
+  margin-bottom: 35px;
+}
+
+.app .hero .icon {
+  font-size: 35px;
+  margin-right: 20px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  background: #96bf0e;
+}
+
+.app .hero .name {
+  font-size: 35px;
+  font-weight: 700;
+  color: #1d1d1d;
+  display: inline-block;
+}
+
+.app .hero .description {
+  margin-top: 20px;
+  font-size: 21px;
+  color: #1d1d1d;
+}
+
+.bar {
+  background: #96bf0e;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  text-align: center;
+}
+
+.bar .menu {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.bar .menu .item {
+  height: 90px;
+  width: 90px;
+  border-left: 1px solid #68850a;
+  text-align: center;
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.bar .menu .item.active {
+  background: #a0cc11;
+}
+
+.bar .menu .item:hover {
+  background: #a0cc11;
+}
+
+.bar .menu .item:last-child {
+  border-right: 1px solid #68850a;
+}
+
+.bar .menu .item .icon {
+  font-size: 27px;
+  padding-top: 10px;
+}
+
+.bar .menu .item .name {
+  font-size: 16px;
+  padding-top: 5px;
+  font-weight: 600;
+  color: #4c6106;
+}
